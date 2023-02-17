@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ddffdd;
+    font-size: 17pt;
+    background-image: url("images/Scroll%20Work.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100%;
+    color: #555555;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.half {
+    width: 45%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.links {
+    list-style-type: "→";
+}
+
+.links li {
+    padding-left: 8px;
+}
+
+.links a {
+    color:blueviolet;
+}
+
+.links a:visited {
+    color: #555555;
+}
